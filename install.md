@@ -47,12 +47,7 @@ Mettez à jour les paquets existants sur votre système et installez les préreq
 
 ### Étape 3: Configurer le Dépôt Bareos
 
-1. Téléchargez la clé GPG pour le dépôt Bareos :
-    ```bash
-    wget -O /usr/share/keyrings/bareos-archive-keyring.gpg http://download.bareos.org/bareos/release/latest/Debian_9.0/Release.key
-    ```
-
-2. Ajoutez le dépôt Bareos à votre liste de sources :
+1. Ajoutez le dépôt Bareos à votre liste de sources :
     ```bash
     sudo nano /etc/apt/sources.list.d/bareos.list
     ```
